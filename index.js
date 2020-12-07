@@ -2,8 +2,8 @@ const captureWebsite = require('capture-website');
 const fs = require('fs');
 const AWS = require('aws-sdk');
 // Enter copied or downloaded access ID and secret key here
-const ID = 'AKIAIDAZ3FRY7TUO2S3Q';
-const SECRET = '2YeW9l7O4pCf5FDtonM4dJiYwey/cce/ii+fN9WX';
+const ID = 'PUT_YOUR_SECRET_ID_FROM_AWS_CREDENTIALS';
+const SECRET = 'PUT_YOUR_SECRET_KEY_FROM_AWS_CREDENTIALS_LARGER_THAN_ID';
 // The name of the bucket that you have created
 const BUCKET_NAME = 'capturethumbnails';
 const s3 = new AWS.S3({
